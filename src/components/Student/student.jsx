@@ -3,7 +3,7 @@ import Scores from "../Scores/scores";
 
 const Student = ({ name, bio, scores}) => {
   return (
-    <div>
+    <div className="card">
       <h2>{name}</h2>
       <p>{bio}</p>
       {scores.map(item => (

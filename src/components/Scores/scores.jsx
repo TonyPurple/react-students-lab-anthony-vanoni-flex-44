@@ -2,8 +2,10 @@ import React from "react";
 
 const Scores = ({ scores, date }) => {
   return (
-    <div>
+    <div className="container">
+    <li>
       {scores} on {date}
+    </li>
     </div>
   );
 };
