@@ -6,7 +6,7 @@ class App extends React.Component {
     state = {
         students: [{
                 name: 'Anthony Vanoni',
-                bio: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus placeat nostrum explicabo? Voluptatibus expedita saepe officia optio, commodi totam ratione laudantium ipsum porro molestias, quasi nulla minus vitae laboriosam corrupti Delectus inventore explicabo est odit incidunt rem a recusandae eum pariatur. Aperiam doloremque blanditiis harum voluptate animi fugit beatae asperiores quo, dignissimos sed illum veniam eum accusantium nulla quod voluptatum',
+                bio: 'Recovering donut addict.',
                 scores: [
                     {
                       date: "2022-01-14",
@@ -28,7 +28,7 @@ class App extends React.Component {
                 },
             {
                 name: 'Tatsiana Prokharchyk',
-                bio: 'Eum molestiae explicabo deserunt, maiores quod eaque omnis tenetur vero ducimus, magnam autem! Quia facere quaerat eum repudiandae dolorum eligendi iure quae. Eos id possimus accusantium, earum animi modi hic.',
+                bio: 'Just a gal with a lot of spice.',
                 scores: [
                     {
                       date: "2022-02-11",
@@ -46,7 +46,7 @@ class App extends React.Component {
               },
             {
                 name: 'Dylan Burston',
-                bio: 'Repudiandae veritatis recusandae quidem tenetur impedit, numquam incidunt enim, adipisci id cupiditate asperiores nam perferendis. Facere odit laborum ipsum autem repellendus natus eius doloremque ullam perferendis. Enim repellendus ut veniam?',
+                bio: 'Gifted napper, talker, and ice cream eater.',
                 scores: [
                     {
                       date: "2022-02-08",
