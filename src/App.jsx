@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import Student from './components/Student/student';
 
 class App extends React.Component {
     state = {
@@ -22,13 +23,20 @@ class App extends React.Component {
     }
 
     render() {
-    return (
-        <div>
-          Test
-        </div>
-    
-      );
+        return (
+          <div className="App">
+            {this.state.students.map(student => {
+              return (
+                <Student
+                  name={student.name}
+                  bio={student.bio}
+                  scores={student.scores}
+                />
+              );
+            })}
+          </div>
+        );
+      }
     }
-}
-
-export default App;
+    
+    export default App;
