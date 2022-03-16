@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import React from 'react';
 import Student from './components/Student/student';
 
@@ -68,7 +68,10 @@ class App extends React.Component {
 
     render() {
         return (
-          <div className="App">
+            <body>
+            <div class="container">
+            <div class="card-panel">
+            <span class="blue-text text-darken-2">Student Details</span>
             {this.state.students.map(student => {
               return (
                 <Student
@@ -79,6 +82,8 @@ class App extends React.Component {
               );
             })}
           </div>
+          </div>
+          </body>
         );
       }
     }
